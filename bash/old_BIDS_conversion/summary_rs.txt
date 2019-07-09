@@ -1,0 +1,190 @@
+ADI003 bl fu fu2
+ADI003
+0
+1
+0
+ADI006 bl fu fu2
+ADI006
+0
+1
+0
+ADI009 bl fu fu2
+ADI009
+1
+1
+1
+ADI014 bl fu fu2
+ADI014
+0
+1
+1
+ADI016 bl fu fu2
+ADI016
+1
+1
+1
+ADI020 bl fu fu2
+ADI020
+1
+1
+1
+ADI025 bl fu fu2
+ADI025
+1
+1
+0
+ADI029 bl fu fu2
+ADI029
+0
+1
+1
+ADI036 bl fu fu2
+ADI036
+1
+1
+1
+ADI041 bl fu fu2
+ADI041
+2
+1
+0
+ADI045 bl fu fu2
+ADI045
+1
+1
+1
+ADI046 bl fu fu2
+ADI046
+1
+1
+1
+ADI047 bl fu fu2
+ADI047
+0
+1
+1
+ADI048 bl fu fu2
+ADI048
+1
+1
+1
+ADI049 bl fu fu2
+ADI049
+1
+1
+1
+ADI050 bl fu fu2
+ADI050
+0
+1
+1
+ADI053 bl fu fu2
+ADI053
+0
+1
+1
+ADI061 bl fu fu2
+ADI061
+1
+1
+2
+ADI062 bl fu fu2
+ADI062
+1
+1
+1
+ADI063 bl fu fu2
+ADI063
+1
+1
+0
+ADI064 bl fu fu2
+ADI064
+1
+1
+1
+ADI068 bl fu fu2
+ADI068
+1
+1
+1
+ADI069 bl fu fu2
+ADI069
+1
+1
+0
+ADI072 bl fu fu2
+ADI072
+1
+1
+1
+ADI082 bl fu fu2
+ADI082
+0
+1
+1
+ADI087 bl fu fu2
+ADI087
+1
+1
+1
+ADI088 bl fu fu2
+ADI088
+0
+1
+2
+ADI091 bl fu fu2
+ADI091
+0
+1
+0
+ADI093 bl fu fu2
+ADI093
+0
+1
+0
+ADI095 bl fu fu2
+ADI095
+0
+1
+0
+ADI097 bl fu fu2
+ADI097
+1
+1
+1
+ADI102 bl fu fu2
+ADI102
+1
+1
+0
+ADI107 bl fu fu2
+ADI107
+1
+1
+0
+ADI111 bl fu fu2
+ADI111
+1
+1
+1
+ADI116 bl fu fu2
+ADI116
+1
+1
+0
+ADI124 bl fu fu2
+ADI124
+1
+1
+1
+ADI139 bl fu fu2
+ADI139
+1
+1
+0
+ADI140 bl fu fu2
+ADI140
+1
+1
+1

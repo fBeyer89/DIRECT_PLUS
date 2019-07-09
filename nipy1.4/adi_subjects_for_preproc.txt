@@ -1,0 +1,10 @@
+BL
+leave out because no T1 image/2rs: ADI014_bl, 'ADI049_bl','ADI041_bl'
+
+['ADI006_bl','ADI009_bl','ADI013_bl','ADI016_bl','ADI020_bl','ADI036_bl','ADI045_bl','ADI046_bl','ADI048_bl','ADI061_bl','ADI062_bl','ADI064_bl','ADI068_bl','ADI072_bl','ADI087_bl','ADI097_bl','ADI111_bl','ADI116_bl','ADI124_bl','ADI140_bl','ADI025_bl','ADI063_bl','ADI069_bl','ADI102_bl','ADI107_bl','ADI139_bl','ADI007_bl','ADI008_bl','ADI026_bl','ADI032_bl','ADI033_bl','ADI080_bl','ADI089_bl','ADI118_bl','ADI136']
+
+FU
+['ADI006_fu','ADI009_fu','ADI013_fu','ADI014_fu','ADI016_fu','ADI020_fu','ADI025_fu','ADI036_fu','ADI041_fu','ADI045_fu','ADI046_fu','ADI048_fu','ADI049_fu','ADI061_fu','ADI062_fu','ADI063_fu','ADI064_fu','ADI068_fu','ADI069_fu','ADI072_fu','ADI087_fu','ADI097_fu','ADI102_fu','ADI107_fu','ADI111_fu','ADI116_fu','ADI124_fu','ADI139_fu','ADI140_fu','ADI003_fu','ADI029_fu','ADI047_fu','ADI050_fu','ADI053_fu','ADI082_fu','ADI088_fu','ADI091_fu','ADI093_fu',ADI095_fu']
+
+FU2:
+['ADI006_fu2','ADI009_fu2','ADI013_fu2','ADI014_fu2','ADI016_fu2','ADI020_fu2','ADI036_fu2','ADI045_fu2','ADI046_fu2','ADI048_fu2','ADI049_fu2','ADI061_fu2','ADI062_fu2','ADI064_fu2','ADI068_fu2','ADI072_fu2','ADI087_fu2','ADI097_fu2','ADI111_fu2','ADI116_fu2','ADI124_fu2','ADI140_fu2','ADI003_fu2','ADI029_fu2','ADI047_fu2','ADI050_fu2','ADI053_fu2','ADI082_fu2','ADI088_fu2','ADI091_fu2','ADI002_fu2','ADI004_fu2','ADI005_fu2']

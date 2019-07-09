@@ -1,0 +1,5 @@
+tkmedit started: Mon Jul  8 13:20:43 2019
+
+	/afs/cbs.mpg.de/software/freesurfer/6.0.0p1/ubuntu-bionic-amd64/tktools/tkmedit.bin ADI097_fu brainmask.mgz -surfs -aux wm.mgz 
+
+$Id: tkmedit.c,v 1.348 2014/11/06 16:47:49 greve Exp $ $Name: stable6 $
