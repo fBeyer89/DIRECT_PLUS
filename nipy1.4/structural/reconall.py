@@ -25,7 +25,7 @@ def create_reconall_pipeline(name='reconall'):
     
     
     # run reconall
-    recon_all = Node(fs.ReconAll(args='-all -hippocampal-subfields-T1 -no-isrunning', openmp=16), #FS version 6.0: -hippocampal-subfields-T1, version 5.3.. -hippo-subfields
+    recon_all = Node(fs.ReconAll(args='-all -hippocampal-subfields-T1 -no-isrunning', parallel=True, openmp=4), #FS version 6.0: -hippocampal-subfields-T1, version 5.3.. -hippo-subfields
     name="recon_all")
     #recon_all.inputs.directive= 'autorecon2-wm' # -autorecon3
     recon_all.plugin_args={'submit_specs': 'request_memory = 9000'}

@@ -14,7 +14,6 @@ from nipype.pipeline.engine import Node, Workflow
 import nipype.interfaces.io as nio
 from reconall import create_reconall_pipeline
 from mgzconvert import create_mgzconvert_pipeline
-from ants import create_normalize_pipeline
 import nipype.interfaces.utility as util
 
 
@@ -26,13 +25,11 @@ def create_structural():
     #inputnode
     inputnode=Node(util.IdentityInterface(fields=['subject','anat',
     'out_dir',
-    'freesurfer_dir',
-    'standard_brain'
+    'freesurfer_dir'
     ]),
     name='inputnode')    
     
-    outputnode=Node(util.IdentityInterface(fields=['brain','brainmask','anat2std_transforms','std2anat_transforms','anat2std',
-                                                   'anat_head','wmseg','csfseg','wmedge', 'subject_id']),
+    outputnode=Node(util.IdentityInterface(fields=['brain','brainmask', 'anat_head','wmseg','csfseg','wmedge', 'subject_id']),
     name='outputnode')      
     
     # workflow to run freesurfer reconall
@@ -41,14 +38,7 @@ def create_structural():
     # workflow to get brain, head and wmseg from freesurfer and convert to nifti
     mgzconvert = create_mgzconvert_pipeline()
    
-    normalize = create_normalize_pipeline()
-
-    # sink to store files
-    #sink = Node(nio.DataSink(parameterization=False,
-    #                         substitutions=[
-    #                             ('transform_Warped', 'T1_brain2mni')]),
-    #            name='sink')
-
+    
     # connections
     struct_preproc.connect(
         [(inputnode, reconall, [('anat', 'inputnode.anat')]),   
@@ -56,11 +46,6 @@ def create_structural():
          (inputnode, reconall, [('freesurfer_dir', 'inputnode.fs_subjects_dir')]),
          (reconall, mgzconvert,  [('outputnode.fs_subject_id', 'inputnode.fs_subject_id'),
                                   ('outputnode.fs_subjects_dir', 'inputnode.fs_subjects_dir')]),  
-         (inputnode, normalize, [('standard_brain', 'inputnode.standard')]),  
-         (mgzconvert, normalize, [('outputnode.anat_brain', 'inputnode.anat')]),
-         (normalize, outputnode, [('outputnode.anat2std', 'anat2std'),
-                            ('outputnode.anat2std_transforms', 'anat2std_transforms'),
-                            ('outputnode.std2anat_transforms', 'std2anat_transforms')]),
          (mgzconvert, outputnode, [('outputnode.anat_brain', 'brain')]),
          (mgzconvert, outputnode, [('outputnode.anat_brain_mask', 'brainmask')]),
          (mgzconvert, outputnode, [('outputnode.anat_head', 'anat_head')]),
