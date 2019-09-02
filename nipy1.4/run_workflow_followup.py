@@ -7,9 +7,8 @@ run:
 python run_workflow.py f subjectlist.txt
 """
 
-from workflow_nonhcp_DBIEX import create_workflow
-
-#workflow_nonhcp
+from workflow_nonhcp import create_workflow
+#workflow_nonhcp_DBIEX
 import sys
 import os
 
@@ -23,13 +22,9 @@ python run_workflow f {text file containing list of subjects}
 #with open(sys.argv[2], 'r') as f:
 #    subjects = [line.strip() for line in f]
 
-subjects=['s242']
+subjects=['s1','s4','s5','s9','s10','s11','s13','s15','s17','s19','s20','s21','s22','s23','s24','s27','s31','s34','s35','s36','s37','s39','s44','s46','s49','s50','s54','s55','s56','s58','s60','s61','s62','s63','s66','s72','s73','s75','s76','s81','s82','s83','s87','s88','s89','s90','s91','s92','s94','s96','s98','s99','s100']
+        
 
-
-#running to correct mixing:
-#['s5','s9','s10','s11','s13','s15','s19','s20','s21','s22','s23','s24','s27','s31','s34','s35','s36','s37','s39','s44','s46','s49','s50','s54','s55','s56','s58','s60','s61','s62','s66','s72','s73','s75','s76','s81','s82','s83','s87','s88','s90','s91','s92','s94','s96','s98','s99','s100', 's41', 's59', 's70', 's74']
-              
-#for DBIEX: , 
 #done
 #['s74','s75','s76','s81','s82','s83','s87','s88','s90','s91','s92','s94','s96','s98','s99','s100','s101','s102','s104','s105','s106','s107','s108']
 #['s151','s152','s153','s154','s155','s156','s157','s158','s159','s162','s163','s165','s166','s167','s168','s169','s170','s173','s176','s177','s178','s180','s181','s182','s183','s184','s185','s187','s188','s189','s190','s192','s193','s194','s196','s197','s198','s199','s200']
@@ -41,14 +36,14 @@ subjects=['s242']
 #run but some errors (see table='s201','s204','s205','s206','s210','s211','s212','s213','s214','s215','s216','s217','s218','s219','s220','s221','s222','s224','s225','s226','s227','s228','s229','s230','s231','s232','s234','s235','s236','s237','s238','s239','s240','s241','s242','s243','s244','s246','s247','s248','s249','s250','s251','s252','s253','s254','s255','s256','s257','s258','s259','s260','s261','s262','s263','s264','s265','s266','s267','s268','s269','s271','s272','s273','s274','s275','s277']
 #subjects with another anat name: 's1','s118','s164','s242'] (DBIEX_4_1) + 's346' DBIEX_3_1
 
-root_dir = '/data/p_02205/TIME0/'
-working_dir = '/data/pt_02205/wd/'
+root_dir = '/data/p_02205/TIME18/'
+working_dir = '/data/pt_02205/wd/T18/'
 data_dir = root_dir
-out_dir = '/data/pt_02205/preprocessed/T0/'
+out_dir = '/data/pt_02205/preprocessed/T18/'
 
 freesurfer_dir = '/data/pt_02205/freesurfer/'
 
-tp="bl"
+tp="fu"
 
 create_workflow(subjectlist=subjects,
                      working_dir=working_dir,

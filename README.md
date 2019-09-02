@@ -34,7 +34,7 @@ cp: skipping file '/media/fbeyer/SP PHD U3/Data/TIME18/284/brain/DICOM/IM_1075',
 - don't perform fieldmap correction as there is none
 - derive acquisition parameters from header:
   according to: https://github.com/poldracklab/fmriprep/blob/260872273a1f4ef02de2cae20dd7d6948b531c4b/fmriprep/interfaces/fmap.py#L328
-  Total readout time = WaterFatShift / (wfs_hz ) = 23.0209541/(434.21) = 0.05302 s
+  Total readout time = WaterFatShift / (wfs_hz ) = taken from DICOM header /(434.21) ~ 0.05302 s
 - run eddy with replacement of outliers, but without intra-volume motion correction
 - run DTI model and fit
 - register to crosssectional T1

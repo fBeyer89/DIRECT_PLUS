@@ -48,7 +48,7 @@ def create_workflow(subjectlist, working_dir, data_dir, freesurfer_dir, out_dir,
     rename.inputs.tp=tp
     
     #get anatomical image from NIFTI
-    templates = {'anat_head': '{subject}/brain/*T1_3D_TFE_SENSE*.nii'
+    templates = {'anat_head': '{subject}/brain/DBIEX_4_1.nii'
                  }
     selectfiles = Node(nio.SelectFiles(templates,
                                        base_directory=data_dir),

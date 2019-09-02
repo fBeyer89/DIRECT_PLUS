@@ -91,8 +91,12 @@ def create_distortion_correct():
         import nibabel as nb
         import numpy as np
         import os
-        dwi = nb.load(dwi_file)
-        dwi_data = dwi.get_data()
+        if type(dwi_file)==list:
+            dwi = nb.load(dwi_file[0])
+            dwi_data = dwi.get_data()
+        else:
+            dwi = nb.load(dwi_file)
+            dwi_data = dwi.get_data()   
     
         fn=os.getcwd()+'/index.txt'
         np.savetxt(fn, np.ones(np.shape(dwi_data)[3]),  delimiter=' ', newline='\n', fmt='%.0i')
