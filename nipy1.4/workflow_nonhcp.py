@@ -16,9 +16,8 @@ from structural.structural import create_structural
 from diffusion.diffusion import create_dti
 
 '''
-Main workflow for lemon resting state preprocessing.
+Main workflow for DIRECT PLUS preprocessing
 ====================================================
-Uses file structure set up by conversion script.
 '''
 
 
@@ -64,12 +63,17 @@ def create_workflow(subjectlist, working_dir, data_dir, freesurfer_dir, out_dir,
     #extract sequence parameter (varies across subjects):
     def get_wfs(dicomdir):
         import pydicom,os
-        f=dicomdir+'/IM_0001'
-        if os.path.isfile(f):
-            d = pydicom.dcmread(f)
-            wfs=d[0x2001,0x1022].value
-            trt=wfs/434.21
-        return trt
+        import numpy as np
+        fl=os.listdir(dicomdir)
+        for i in np.arange(0,len(fl)):
+            f=dicomdir+'/IM_'+'{:03d}'.format(i)
+            if os.path.isfile(f):
+                
+                d = pydicom.dcmread(f)
+                if "Dwi" in d[0x2001,0x1020].value:
+                    wfs=d[0x2001,0x1022].value
+                    trt=wfs/434.21
+                    return trt
     
     wfs=Node(util.Function(input_names=["dicomdir"],
                   output_names=["trt"],

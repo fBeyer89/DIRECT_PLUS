@@ -1,5 +1,10 @@
-tkmedit started: Mon Jul  8 13:20:43 2019
+tkmedit started: Fri Oct 30 15:49:31 2020
 
-	/afs/cbs.mpg.de/software/freesurfer/6.0.0p1/ubuntu-bionic-amd64/tktools/tkmedit.bin ADI097_fu brainmask.mgz -surfs -aux wm.mgz 
+	/afs/cbs.mpg.de/software/freesurfer/6.0.0p1/ubuntu-bionic-amd64/tktools/tkmedit.bin s9_fu.long.s9 brainmask.mgz -surfs -aux wm.mgz 
 
 $Id: tkmedit.c,v 1.348 2014/11/06 16:47:49 greve Exp $ $Name: stable6 $
+Set user home dir to /data/pt_02205/Analysis/Preprocessing/qa
+Set subject home dir to /data/pt_02205/Data/freesurfer/s9_fu.long.s9
+Using interface file /afs/cbs.mpg.de/software/freesurfer/6.0.0p1/ubuntu-bionic-amd64/tktools/tkmedit.tcl
+Tcl: Successfully parsed tkmedit.tcl
+Tcl: Successfully parsed tkm_functional.tcl

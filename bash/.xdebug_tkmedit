@@ -1,0 +1,9 @@
+tkmedit started: Thu Oct 22 11:53:04 2020
+
+	/afs/cbs.mpg.de/software/freesurfer/6.0.0p1/ubuntu-bionic-amd64/tktools/tkmedit.bin brainmask.mgz -surfs -aux wm.mgz 
+
+$Id: tkmedit.c,v 1.348 2014/11/06 16:47:49 greve Exp $ $Name: stable6 $
+Set user home dir to /data/pt_02205/Analysis/Preprocessing/bash
+ERROR: Parsing subject and image name
+   Image name not declared
+Fatal error in parsing command line args.

@@ -1,0 +1,424 @@
+
+# Dicom-File-Format
+
+# Dicom-Meta-Information-Header
+# Used TransferSyntax: Little Endian Explicit
+(0002,0000) UL 164                                      #   4, 1 FileMetaInformationGroupLength
+(0002,0001) OB 00\01                                    #   2, 1 FileMetaInformationVersion
+(0002,0002) UI =MRImageStorage                          #  26, 1 MediaStorageSOPClassUID
+(0002,0003) UI [1.2.840.113704.7.1.0.39591178219028.1568115784.9911] #  52, 1 MediaStorageSOPInstanceUID
+(0002,0010) UI =LittleEndianExplicit                    #  20, 1 TransferSyntaxUID
+(0002,0012) UI [1.2.840.113704.7.0.2]                   #  20, 1 ImplementationClassUID
+
+# Dicom-Data-Set
+# Used TransferSyntax: Little Endian Explicit
+(0008,0005) CS [ISO 2022 IR 138]                        #  16, 1 SpecificCharacterSet
+(0008,0008) CS [ORIGINAL\SECONDARY\M_SE\M\SE]           #  28, 5 ImageType
+(0008,0012) DA [20190910]                               #   8, 1 InstanceCreationDate
+(0008,0013) TM [144304]                                 #   6, 1 InstanceCreationTime
+(0008,0014) UI [1.3.46.670589.11.89.5]                  #  22, 1 InstanceCreatorUID
+(0008,0016) UI =MRImageStorage                          #  26, 1 SOPClassUID
+(0008,0018) UI [1.2.840.113704.7.1.0.39591178219028.1568115784.9911] #  52, 1 SOPInstanceUID
+(0008,0020) DA [20170109]                               #   8, 1 StudyDate
+(0008,0021) DA [20170109]                               #   8, 1 SeriesDate
+(0008,0022) DA [20170109]                               #   8, 1 AcquisitionDate
+(0008,0023) DA [20170109]                               #   8, 1 ContentDate
+(0008,0030) TM [120529]                                 #   6, 1 StudyTime
+(0008,0031) TM [121632.55000]                           #  12, 1 SeriesTime
+(0008,0032) TM [121655.68]                              #  10, 1 AcquisitionTime
+(0008,0033) TM [121655.68]                              #  10, 1 ContentTime
+(0008,0050) SH [1245001657256]                          #  14, 1 AccessionNumber
+(0008,0060) CS [MR]                                     #   2, 1 Modality
+(0008,0061) CS [MR\SR]                                  #   6, 2 ModalitiesInStudy
+(0008,0064) CS (no value available)                     #   0, 0 ConversionType
+(0008,0070) LO [Philips Healthcare]                     #  18, 1 Manufacturer
+(0008,0080) LO [SOROKA UNIVERSITY MEDICAL CENT]         #  30, 1 InstitutionName
+(0008,0081) ST (no value available)                     #   0, 0 InstitutionAddress
+(0008,0090) PN [רופא מחליף^-]                           #  12, 1 ReferringPhysicianName
+(0008,0100) SH (no value available)                     #   0, 0 CodeValue
+(0008,0102) SH (no value available)                     #   0, 0 CodingSchemeDesignator
+(0008,0104) LO (no value available)                     #   0, 0 CodeMeaning
+(0008,1010) SH [PHILIPS-NS1MBBN]                        #  16, 1 StationName
+(0008,1030) LO [MR ABDOMEN]                             #  10, 1 StudyDescription
+(0008,1032) SQ (Sequence with explicit length #=1)      #  64, 1 ProcedureCodeSequence
+  (fffe,e000) na (Item with explicit length #=4)          #  56, 1 Item
+    (0008,0100) SH [607000]                                 #   6, 1 CodeValue
+    (0008,0102) SH [CLALIT]                                 #   6, 1 CodingSchemeDesignator
+    (0008,0104) LO [MR ABDOMEN]                             #  10, 1 CodeMeaning
+    (0008,010b) CS [N]                                      #   2, 1 ContextGroupExtensionFlag
+  (fffe,e00d) na (ItemDelimitationItem for re-encoding)   #   0, 0 ItemDelimitationItem
+(fffe,e0dd) na (SequenceDelimitationItem for re-encod.) #   0, 0 SequenceDelimitationItem
+(0008,103e) LO [DTI_high_iso]                           #  12, 1 SeriesDescription
+(0008,1040) LO [MRI]                                    #   4, 1 InstitutionalDepartmentName
+(0008,1050) PN (no value available)                     #   0, 0 PerformingPhysicianName
+(0008,1070) PN (no value available)                     #   0, 0 OperatorsName
+(0008,1080) LO (no value available)                     #   0, 0 AdmittingDiagnosesDescription
+(0008,1090) LO [Ingenia]                                #   8, 1 ManufacturerModelName
+(0008,1111) SQ (Sequence with explicit length #=1)      # 228, 1 ReferencedPerformedProcedureStepSequence
+  (fffe,e000) na (Item with explicit length #=9)          # 220, 1 Item
+    (0008,0012) DA [20170109]                               #   8, 1 InstanceCreationDate
+    (0008,0013) TM [120529.718]                             #  10, 1 InstanceCreationTime
+    (0008,0014) UI [1.3.46.670589.11.89.5]                  #  22, 1 InstanceCreatorUID
+    (0008,1150) UI =ModalityPerformedProcedureStepSOPClass  #  24, 1 ReferencedSOPClassUID
+    (0008,1155) UI [1.3.46.670589.11.42136.5.0.2020.2017010912052971003] #  52, 1 ReferencedSOPInstanceUID
+    (0020,0013) IS [0]                                      #   2, 1 InstanceNumber
+    (2005,0014) LO [Philips MR Imaging DD 005]              #  26, 1 PrivateCreator
+    (2005,1404) SS 1                                        #   2, 1 Unknown Tag & Data
+    (2005,1406) SS 1                                        #   2, 1 Unknown Tag & Data
+  (fffe,e00d) na (ItemDelimitationItem for re-encoding)   #   0, 0 ItemDelimitationItem
+(fffe,e0dd) na (SequenceDelimitationItem for re-encod.) #   0, 0 SequenceDelimitationItem
+(0008,1140) SQ (Sequence with explicit length #=3)      # 306, 1 ReferencedImageSequence
+  (fffe,e000) na (Item with explicit length #=2)          #  94, 1 Item
+    (0008,1150) UI =MRImageStorage                          #  26, 1 ReferencedSOPClassUID
+    (0008,1155) UI [1.3.46.670589.11.42136.5.0.5116.2017010912114373216] #  52, 1 ReferencedSOPInstanceUID
+  (fffe,e00d) na (ItemDelimitationItem for re-encoding)   #   0, 0 ItemDelimitationItem
+  (fffe,e000) na (Item with explicit length #=2)          #  94, 1 Item
+    (0008,1150) UI =MRImageStorage                          #  26, 1 ReferencedSOPClassUID
+    (0008,1155) UI [1.3.46.670589.11.42136.5.0.8812.2017010912094425031] #  52, 1 ReferencedSOPInstanceUID
+  (fffe,e00d) na (ItemDelimitationItem for re-encoding)   #   0, 0 ItemDelimitationItem
+  (fffe,e000) na (Item with explicit length #=2)          #  94, 1 Item
+    (0008,1150) UI =MRImageStorage                          #  26, 1 ReferencedSOPClassUID
+    (0008,1155) UI [1.3.46.670589.11.42136.5.0.8812.2017010912094425047] #  52, 1 ReferencedSOPInstanceUID
+  (fffe,e00d) na (ItemDelimitationItem for re-encoding)   #   0, 0 ItemDelimitationItem
+(fffe,e0dd) na (SequenceDelimitationItem for re-encod.) #   0, 0 SequenceDelimitationItem
+(0008,2112) SQ (Sequence with explicit length #=1)      # 102, 1 SourceImageSequence
+  (fffe,e000) na (Item with explicit length #=2)          #  94, 1 Item
+    (0008,1150) UI =MRImageStorage                          #  26, 1 ReferencedSOPClassUID
+    (0008,1155) UI [1.3.46.670589.11.42136.5.0.5116.2017010912241247980] #  52, 1 ReferencedSOPInstanceUID
+  (fffe,e00d) na (ItemDelimitationItem for re-encoding)   #   0, 0 ItemDelimitationItem
+(fffe,e0dd) na (SequenceDelimitationItem for re-encod.) #   0, 0 SequenceDelimitationItem
+(0010,0010) PN [NOVIK^ARIE=נוביק^אריה]                  #  22, 1 PatientName
+(0010,0020) LO [121573]                                 #   6, 1 PatientID
+(0010,0021) LO (no value available)                     #   0, 0 IssuerOfPatientID
+(0010,0030) DA [19481107]                               #   8, 1 PatientBirthDate
+(0010,0040) CS [M]                                      #   2, 1 PatientSex
+(0010,1010) AS [068Y]                                   #   4, 1 PatientAge
+(0010,1020) DS [0]                                      #   2, 1 PatientSize
+(0010,1030) DS [105]                                    #   4, 1 PatientWeight
+(0010,2000) LO (no value available)                     #   0, 0 MedicalAlerts
+(0010,2110) LO (no value available)                     #   0, 0 Allergies
+(0010,2160) SH (no value available)                     #   0, 0 EthnicGroup
+(0010,2180) SH (no value available)                     #   0, 0 Occupation
+(0010,21b0) LT (no value available)                     #   0, 0 AdditionalPatientHistory
+(0010,21c0) US 4                                        #   2, 1 PregnancyStatus
+(0010,4000) LT (no value available)                     #   0, 0 PatientComments
+(0018,0015) CS (no value available)                     #   0, 0 BodyPartExamined
+(0018,0020) CS [SE]                                     #   2, 1 ScanningSequence
+(0018,0021) CS [SK]                                     #   2, 1 SequenceVariant
+(0018,0022) CS [FS]                                     #   2, 1 ScanOptions
+(0018,0023) CS [2D]                                     #   2, 1 MRAcquisitionType
+(0018,0050) DS [2]                                      #   2, 1 SliceThickness
+(0018,0080) DS [4097.4560546875]                        #  16, 1 RepetitionTime
+(0018,0081) DS [87.226]                                 #   6, 1 EchoTime
+(0018,0083) DS [1]                                      #   2, 1 NumberOfAverages
+(0018,0084) DS [127.730888]                             #  10, 1 ImagingFrequency
+(0018,0085) SH [1H]                                     #   2, 1 ImagedNucleus
+(0018,0086) IS [1]                                      #   2, 1 EchoNumbers
+(0018,0087) DS [3]                                      #   2, 1 MagneticFieldStrength
+(0018,0088) DS [2]                                      #   2, 1 SpacingBetweenSlices
+(0018,0089) IS [112]                                    #   4, 1 NumberOfPhaseEncodingSteps
+(0018,0091) IS [51]                                     #   2, 1 EchoTrainLength
+(0018,0093) DS [100]                                    #   4, 1 PercentSampling
+(0018,0094) DS [100]                                    #   4, 1 PercentPhaseFieldOfView
+(0018,0095) DS [1248]                                   #   4, 1 PixelBandwidth
+(0018,1000) LO [42136]                                  #   6, 1 DeviceSerialNumber
+(0018,1010) LO (no value available)                     #   0, 0 SecondaryCaptureDeviceID
+(0018,1016) LO (no value available)                     #   0, 0 SecondaryCaptureDeviceManufacturer
+(0018,1018) LO (no value available)                     #   0, 0 SecondaryCaptureDeviceManufacturerModelName
+(0018,1019) LO (no value available)                     #   0, 0 SecondaryCaptureDeviceSoftwareVersions
+(0018,1020) LO [5.1.7\5.1.7.2]                          #  14, 2 SoftwareVersions
+(0018,1022) SH (no value available)                     #   0, 0 VideoImageFormatAcquired
+(0018,1023) LO (no value available)                     #   0, 0 DigitalImageFormatAcquired
+(0018,1030) LO [DTI_high_iso SENSE]                     #  18, 1 ProtocolName
+(0018,1074) DS (no value available)                     #   0, 0 RadionuclideTotalDose
+(0018,1081) IS [0]                                      #   2, 1 LowRRValue
+(0018,1082) IS [0]                                      #   2, 1 HighRRValue
+(0018,1083) IS [0]                                      #   2, 1 IntervalsAcquired
+(0018,1084) IS [0]                                      #   2, 1 IntervalsRejected
+(0018,1088) IS [0]                                      #   2, 1 HeartRate
+(0018,1100) DS [224]                                    #   4, 1 ReconstructionDiameter
+(0018,1250) SH [MULTI COIL]                             #  10, 1 ReceiveCoilName
+(0018,1310) US 112\0\0\112                              #   8, 4 AcquisitionMatrix
+(0018,1312) CS [COL]                                    #   4, 1 InPlanePhaseEncodingDirection
+(0018,1314) DS [90]                                     #   2, 1 FlipAngle
+(0018,1316) DS [0.11184461414813]                       #  16, 1 SAR
+(0018,1318) DS [62.4120559692382]                       #  16, 1 dBdt
+(0018,5100) CS [HFS]                                    #   4, 1 PatientPosition
+(0018,9073) FD 353.12649536132813                       #   8, 1 AcquisitionDuration
+(0018,9087) FD 800                                      #   8, 1 DiffusionBValue
+(0018,9089) FD 0\0\0                                    #  24, 3 DiffusionGradientOrientation
+(0018,9117) SQ (Sequence with explicit length #=1)      #  94, 1 MRDiffusionSequence
+  (fffe,e000) na (Item with explicit length #=3)          #  86, 1 Item
+    (0018,9075) CS [ISOTROPIC]                              #  10, 1 DiffusionDirectionality
+    (0018,9076) SQ (Sequence with explicit length #=1)      #  40, 1 DiffusionGradientDirectionSequence
+      (fffe,e000) na (Item with explicit length #=1)          #  32, 1 Item
+        (0018,9089) FD 0\0\0                                    #  24, 3 DiffusionGradientOrientation
+      (fffe,e00d) na (ItemDelimitationItem for re-encoding)   #   0, 0 ItemDelimitationItem
+    (fffe,e0dd) na (SequenceDelimitationItem for re-encod.) #   0, 0 SequenceDelimitationItem
+    (0018,9087) FD 800                                      #   8, 1 DiffusionBValue
+  (fffe,e00d) na (ItemDelimitationItem for re-encoding)   #   0, 0 ItemDelimitationItem
+(fffe,e0dd) na (SequenceDelimitationItem for re-encod.) #   0, 0 SequenceDelimitationItem
+(0020,000d) UI [1.2.840.113564.99.1.2342335392255.58797.201719103043800.2172.2] #  62, 1 StudyInstanceUID
+(0020,000e) UI [1.2.840.113704.7.32.070589.11.42136.5.0.5116.2017010912163293225] #  64, 1 SeriesInstanceUID
+(0020,0010) SH [536925929]                              #  10, 1 StudyID
+(0020,0011) IS [501]                                    #   4, 1 SeriesNumber
+(0020,0012) IS [5]                                      #   2, 1 AcquisitionNumber
+(0020,0013) IS [1056]                                   #   4, 1 InstanceNumber
+(0020,0032) DS [-116.16272306442\-129.40549087524\-31.765657424926] #  50, 3 ImagePositionPatient
+(0020,0037) DS [1\0\0\0\1\0]                            #  12, 6 ImageOrientationPatient
+(0020,0052) UI [1.3.46.670589.11.42136.5.0.1376.2017010912075004007] #  52, 1 FrameOfReferenceUID
+(0020,0060) CS (no value available)                     #   0, 0 Laterality
+(0020,0100) IS [1]                                      #   2, 1 TemporalPositionIdentifier
+(0020,0105) IS [1]                                      #   2, 1 NumberOfTemporalPositions
+(0020,1040) LO (no value available)                     #   0, 0 PositionReferenceIndicator
+(0020,1041) DS [3031.76565742492]                       #  16, 1 SliceLocation
+(0020,1208) IS [4021]                                   #   4, 1 NumberOfStudyRelatedInstances
+(0028,0002) US 1                                        #   2, 1 SamplesPerPixel
+(0028,0004) CS [MONOCHROME2]                            #  12, 1 PhotometricInterpretation
+(0028,0010) US 128                                      #   2, 1 Rows
+(0028,0011) US 128                                      #   2, 1 Columns
+(0028,0030) DS [1.75\1.75]                              #  10, 2 PixelSpacing
+(0028,0100) US 16                                       #   2, 1 BitsAllocated
+(0028,0101) US 12                                       #   2, 1 BitsStored
+(0028,0102) US 11                                       #   2, 1 HighBit
+(0028,0103) US 0                                        #   2, 1 PixelRepresentation
+(0028,1050) DS [45]                                     #   2, 1 WindowCenter
+(0028,1051) DS [79]                                     #   2, 1 WindowWidth
+(0028,1052) DS [0]                                      #   2, 1 RescaleIntercept
+(0028,1053) DS [1]                                      #   2, 1 RescaleSlope
+(0028,1055) LO [User Selection]                         #  14, 1 WindowCenterWidthExplanation
+(0028,1056) CS [LINEAR]                                 #   6, 1 VOILUTFunction
+(0032,1032) PN [R2CONFIG^R2CONFIG]                      #  18, 1 RequestingPhysician
+(0032,1033) LO (no value available)                     #   0, 0 RequestingService
+(0032,1060) LO [MR ABDOMEN]                             #  10, 1 RequestedProcedureDescription
+(0032,1070) LO (no value available)                     #   0, 0 RequestedContrastAgent
+(0032,4000) LT (no value available)                     #   0, 0 RETIRED_StudyComments
+(0038,0050) LO (no value available)                     #   0, 0 SpecialNeeds
+(0038,0500) LO (no value available)                     #   0, 0 PatientState
+(0040,0006) PN (no value available)                     #   0, 0 ScheduledPerformingPhysicianName
+(0040,0241) AE [Ingenia_3T]                             #  10, 1 PerformedStationAETitle
+(0040,0242) SH (no value available)                     #   0, 0 PerformedStationName
+(0040,0243) SH (no value available)                     #   0, 0 PerformedLocation
+(0040,0244) DA [20170109]                               #   8, 1 PerformedProcedureStepStartDate
+(0040,0245) TM [120529]                                 #   6, 1 PerformedProcedureStepStartTime
+(0040,0250) DA [20170109]                               #   8, 1 PerformedProcedureStepEndDate
+(0040,0251) TM [120529]                                 #   6, 1 PerformedProcedureStepEndTime
+(0040,0252) CS (no value available)                     #   0, 0 PerformedProcedureStepStatus
+(0040,0253) SH [536925929]                              #  10, 1 PerformedProcedureStepID
+(0040,0254) LO [MR ABDOMEN]                             #  10, 1 PerformedProcedureStepDescription
+(0040,0255) LO (no value available)                     #   0, 0 PerformedProcedureTypeDescription
+(0040,0260) SQ (Sequence with explicit length #=1)      #  90, 1 PerformedProtocolCodeSequence
+  (fffe,e000) na (Item with explicit length #=5)          #  82, 1 Item
+    (0008,0100) SH [UNDEFINED]                              #  10, 1 CodeValue
+    (0008,0102) SH [UNDEFINED]                              #  10, 1 CodingSchemeDesignator
+    (0008,0103) SH [UNDEFINED]                              #  10, 1 CodingSchemeVersion
+    (0008,0104) LO [UNDEFINED]                              #  10, 1 CodeMeaning
+    (0008,010b) CS [N]                                      #   2, 1 ContextGroupExtensionFlag
+  (fffe,e00d) na (ItemDelimitationItem for re-encoding)   #   0, 0 ItemDelimitationItem
+(fffe,e0dd) na (SequenceDelimitationItem for re-encod.) #   0, 0 SequenceDelimitationItem
+(0040,0275) SQ (Sequence with explicit length #=1)      # 170, 1 RequestAttributesSequence
+  (fffe,e000) na (Item with explicit length #=6)          # 162, 1 Item
+    (0040,0007) LO [MR ABDOMEN]                             #  10, 1 ScheduledProcedureStepDescription
+    (0040,0008) SQ (Sequence with explicit length #=1)      #  80, 1 ScheduledProtocolCodeSequence
+      (fffe,e000) na (Item with explicit length #=4)          #  72, 1 Item
+        (0008,0100) SH [UNDEFINED]                              #  10, 1 CodeValue
+        (0008,0102) SH [UNDEFINED]                              #  10, 1 CodingSchemeDesignator
+        (0008,0103) SH [UNDEFINED]                              #  10, 1 CodingSchemeVersion
+        (0008,0104) LO [UNDEFINED]                              #  10, 1 CodeMeaning
+      (fffe,e00d) na (ItemDelimitationItem for re-encoding)   #   0, 0 ItemDelimitationItem
+    (fffe,e0dd) na (SequenceDelimitationItem for re-encod.) #   0, 0 SequenceDelimitationItem
+    (0040,0009) SH [607010]                                 #   6, 1 ScheduledProcedureStepID
+    (0040,0012) LO (no value available)                     #   0, 0 PreMedication
+    (0040,0400) LT (no value available)                     #   0, 0 CommentsOnTheScheduledProcedureStep
+    (0040,1001) SH [1244001576680]                          #  14, 1 RequestedProcedureID
+  (fffe,e00d) na (ItemDelimitationItem for re-encoding)   #   0, 0 ItemDelimitationItem
+(fffe,e0dd) na (SequenceDelimitationItem for re-encod.) #   0, 0 SequenceDelimitationItem
+(0040,0280) ST (no value available)                     #   0, 0 CommentsOnThePerformedProcedureStep
+(0040,1001) SH [1244001576680]                          #  14, 1 RequestedProcedureID
+(0040,1002) LO (no value available)                     #   0, 0 ReasonForTheRequestedProcedure
+(0040,1003) SH (no value available)                     #   0, 0 RequestedProcedurePriority
+(0040,1004) LO (no value available)                     #   0, 0 PatientTransportArrangements
+(0040,1005) LO (no value available)                     #   0, 0 RequestedProcedureLocation
+(0040,1008) ST [N]                                      #   2, 1 ConfidentialityCode
+(0040,1400) LT (no value available)                     #   0, 0 RequestedProcedureComments
+(0040,2001) LO (no value available)                     #   0, 0 RETIRED_ReasonForTheImagingServiceRequest
+(0040,2004) DA [20170109]                               #   8, 1 IssueDateOfImagingServiceRequest
+(0040,2005) TM [120529.702]                             #  10, 1 IssueTimeOfImagingServiceRequest
+(0040,2009) SH (no value available)                     #   0, 0 OrderEntererLocation
+(0040,2010) SH (no value available)                     #   0, 0 OrderCallbackPhoneNumber
+(0040,2400) LT (no value available)                     #   0, 0 ImagingServiceRequestComments
+(0040,9096) SQ (Sequence with explicit length #=1)      # 106, 1 RealWorldValueMappingSequence
+  (fffe,e000) na (Item with explicit length #=4)          #  98, 1 Item
+    (0040,9224) FD 0                                        #   8, 1 RealWorldValueIntercept
+    (0040,9225) FD 4.7152625152625154                       #   8, 1 RealWorldValueSlope
+    (2001,0010) LO [Philips Imaging DD 001]                 #  22, 1 PrivateCreator
+    (2001,10c1) LO [LinearRealWorldValueMapping]            #  28, 1 Unknown Tag & Data
+  (fffe,e00d) na (ItemDelimitationItem for re-encoding)   #   0, 0 ItemDelimitationItem
+(fffe,e0dd) na (SequenceDelimitationItem for re-encod.) #   0, 0 SequenceDelimitationItem
+(0088,0200) SQ (Sequence with explicit length #=1)      # 4218, 1 IconImageSequence
+  (fffe,e000) na (Item with explicit length #=10)         # 4210, 1 Item
+    (0028,0002) US 1                                        #   2, 1 SamplesPerPixel
+    (0028,0004) CS [MONOCHROME2]                            #  12, 1 PhotometricInterpretation
+    (0028,0010) US 64                                       #   2, 1 Rows
+    (0028,0011) US 64                                       #   2, 1 Columns
+    (0028,0034) IS [1\1]                                    #   4, 2 PixelAspectRatio
+    (0028,0100) US 8                                        #   2, 1 BitsAllocated
+    (0028,0101) US 8                                        #   2, 1 BitsStored
+    (0028,0102) US 7                                        #   2, 1 HighBit
+    (0028,0103) US 0                                        #   2, 1 PixelRepresentation
+    (7fe0,0010) OB 00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00\00... # 4096, 1 PixelData
+  (fffe,e00d) na (ItemDelimitationItem for re-encoding)   #   0, 0 ItemDelimitationItem
+(fffe,e0dd) na (SequenceDelimitationItem for re-encod.) #   0, 0 SequenceDelimitationItem
+(00e1,0010) LO [ELSCINT1]                               #   8, 1 PrivateCreator
+(00e1,1014) CS [N]                                      #   2, 1 Unknown
+(00e1,1022) DS [0\0]                                    #   4, 2 Unknown
+(00e1,1023) DS [1\1]                                    #   4, 2 Unknown
+(00e1,1024) CS [N]                                      #   2, 1 Unknown
+(00e1,1025) CS [N]                                      #   2, 1 Unknown
+(00e1,1040) SH [I800]                                   #   4, 1 OffsetFromCTMRImages
+(07a1,0010) LO [ELSCINT1]                               #   8, 1 PrivateCreator
+(07a1,1002) UL 2176                                     #   4, 1 Unknown Tag & Data
+(07a1,1010) LO [12.1.5.5]                               #   8, 1 Unknown Tag & Data
+(07a1,102a) CS [READ]                                   #   4, 1 Unknown Tag & Data
+(07a1,1036) AE [dcda01FIR]                              #  10, 1 Unknown Tag & Data
+(07a1,1040) CS [ABDOMEN]                                #   8, 1 Unknown Tag & Data
+(07a1,1042) SH [RUSANB@SO]                              #  10, 1 Unknown Tag & Data
+(07a1,1043) IS [1]                                      #   2, 1 Unknown Tag & Data
+(07a1,1047) CS [AXIAL]                                  #   6, 1 Unknown Tag & Data
+(07a1,1050) US 2424                                     #   2, 1 Unknown Tag & Data
+(07a1,1058) CS [Y]                                      #   2, 1 Unknown Tag & Data
+(07a1,105f) CS [N]                                      #   2, 1 Unknown Tag & Data
+(07a1,1070) SH [ת.מ. MRI בטן]                           #  12, 1 Unknown Tag & Data
+(07a1,1075) LO [2D\PALETTE]                             #  10, 2 Unknown Tag & Data
+(07a1,1085) UL 3                                        #   4, 1 Unknown Tag & Data
+(07a1,10c1) ST [IMAGE]                                  #   6, 1 Unknown Tag & Data
+(07a3,0010) LO [ELSCINT1]                               #   8, 1 PrivateCreator
+(07a3,1001) LO [12.1.5.5]                               #   8, 1 Unknown Tag & Data
+(07a3,1003) CS [N]                                      #   2, 1 Unknown Tag & Data
+(07a3,1013) SH [Outpat]                                 #   6, 1 Unknown Tag & Data
+(07a3,1014) ST [607000]                                 #   6, 1 Unknown Tag & Data
+(07a3,1017) SH [CM]                                     #   2, 1 Unknown Tag & Data
+(07a3,1018) ST [ראה הפניה סרוקה]                        #  16, 1 Unknown Tag & Data
+(07a3,101b) ST [rusanb@soroka.clalit.org.il_998925742]  #  38, 1 Unknown Tag & Data
+(07a3,101c) ST [נובואה בונה]                            #  12, 1 Unknown Tag & Data
+(07a3,101d) ST [רוסה]                                   #   4, 1 Unknown Tag & Data
+(07a3,101e) ST [rusanb@soroka.clalit.org.il_998925742]  #  38, 1 Unknown Tag & Data
+(07a3,101f) ST [243360]                                 #   6, 1 Unknown Tag & Data
+(07a3,1023) ST [אטיה אליהו]                             #  10, 1 Unknown Tag & Data
+(07a3,1034) SH [24884]                                  #   6, 1 Unknown Tag & Data
+(07a3,1043) DS [0\0\0\0\1\0\0]                          #  14, 7 Unknown Tag & Data
+(07a3,1052) LO [T2]                                     #   2, 1 Unknown Tag & Data
+(07a3,1055) SH [N]                                      #   2, 1 Unknown Tag & Data
+(07a3,105c) ST [0]                                      #   2, 1 Unknown Tag & Data
+(07a3,1062) SQ (Sequence with explicit length #=8)      # 292, 1 Unknown Tag & Data
+  (fffe,e000) na (Item with explicit length #=2)          #  44, 1 Item
+    (07a3,0010) LO [ELSCINT1]                               #   8, 1 PrivateCreator
+    (07a3,1061) LT [loading_in_progress]                    #  20, 1 Unknown Tag & Data
+  (fffe,e00d) na (ItemDelimitationItem for re-encoding)   #   0, 0 ItemDelimitationItem
+  (fffe,e000) na (Item with explicit length #=2)          #  24, 1 Item
+    (07a3,0010) LO [ELSCINT1]                               #   8, 1 PrivateCreator
+    (07a3,1061) LT (no value available)                     #   0, 0 Unknown Tag & Data
+  (fffe,e00d) na (ItemDelimitationItem for re-encoding)   #   0, 0 ItemDelimitationItem
+  (fffe,e000) na (Item with explicit length #=2)          #  26, 1 Item
+    (07a3,0010) LO [ELSCINT1]                               #   8, 1 PrivateCreator
+    (07a3,1061) LT [4]                                      #   2, 1 Unknown Tag & Data
+  (fffe,e00d) na (ItemDelimitationItem for re-encoding)   #   0, 0 ItemDelimitationItem
+  (fffe,e000) na (Item with explicit length #=2)          #  26, 1 Item
+    (07a3,0010) LO [ELSCINT1]                               #   8, 1 PrivateCreator
+    (07a3,1061) LT [1]                                      #   2, 1 Unknown Tag & Data
+  (fffe,e00d) na (ItemDelimitationItem for re-encoding)   #   0, 0 ItemDelimitationItem
+  (fffe,e000) na (Item with explicit length #=2)          #  32, 1 Item
+    (07a3,0010) LO [ELSCINT1]                               #   8, 1 PrivateCreator
+    (07a3,1061) LT [suvtype]                                #   8, 1 Unknown Tag & Data
+  (fffe,e00d) na (ItemDelimitationItem for re-encoding)   #   0, 0 ItemDelimitationItem
+  (fffe,e000) na (Item with explicit length #=2)          #  24, 1 Item
+    (07a3,0010) LO [ELSCINT1]                               #   8, 1 PrivateCreator
+    (07a3,1061) LT (no value available)                     #   0, 0 Unknown Tag & Data
+  (fffe,e00d) na (ItemDelimitationItem for re-encoding)   #   0, 0 ItemDelimitationItem
+  (fffe,e000) na (Item with explicit length #=2)          #  26, 1 Item
+    (07a3,0010) LO [ELSCINT1]                               #   8, 1 PrivateCreator
+    (07a3,1061) LT [8]                                      #   2, 1 Unknown Tag & Data
+  (fffe,e00d) na (ItemDelimitationItem for re-encoding)   #   0, 0 ItemDelimitationItem
+  (fffe,e000) na (Item with explicit length #=2)          #  26, 1 Item
+    (07a3,0010) LO [ELSCINT1]                               #   8, 1 PrivateCreator
+    (07a3,1061) LT [2]                                      #   2, 1 Unknown Tag & Data
+  (fffe,e00d) na (ItemDelimitationItem for re-encoding)   #   0, 0 ItemDelimitationItem
+(fffe,e0dd) na (SequenceDelimitationItem for re-encod.) #   0, 0 SequenceDelimitationItem
+(07a3,1065) CS [N]                                      #   2, 1 Unknown Tag & Data
+(07a3,107f) UL 3929281                                  #   4, 1 Unknown Tag & Data
+(07a3,108f) CS [N]                                      #   2, 1 Unknown Tag & Data
+(07a3,1099) CS [N]                                      #   2, 1 Unknown Tag & Data
+(07a3,109c) CS [N]                                      #   2, 1 Unknown Tag & Data
+(07a3,10b4) US 0                                        #   2, 1 Unknown Tag & Data
+(07a3,10b9) CS [N]                                      #   2, 1 Unknown Tag & Data
+(07a3,10bb) CS [N]                                      #   2, 1 Unknown Tag & Data
+(07a3,10c0) SQ (Sequence with explicit length #=1)      # 178, 1 Unknown Tag & Data
+  (fffe,e000) na (Item with explicit length #=10)         # 170, 1 Item
+    (07a3,0010) LO [ELSCINT1]                               #   8, 1 PrivateCreator
+    (07a3,10c1) LO [gridname_dc]                            #  12, 1 Unknown Tag & Data
+    (07a3,10c2) CS [SLOW_NET]                               #   8, 1 Unknown Tag & Data
+    (07a3,10c3) CS [REGULAR_CON]                            #  12, 1 Unknown Tag & Data
+    (07a3,10c4) LO [172.24.57.210]                          #  14, 1 Unknown Tag & Data
+    (07a3,10c5) LO [2104]                                   #   4, 1 Unknown Tag & Data
+    (07a3,10c7) LO [gridname_so]                            #  12, 1 Unknown Tag & Data
+    (07a3,10c8) AE [dcclusFIR]                              #  10, 1 Unknown Tag & Data
+    (07a3,10c9) CS [Y]                                      #   2, 1 Unknown Tag & Data
+    (07a3,10cc) LO [1.0.0.0]                                #   8, 1 Unknown Tag & Data
+  (fffe,e00d) na (ItemDelimitationItem for re-encoding)   #   0, 0 ItemDelimitationItem
+(fffe,e0dd) na (SequenceDelimitationItem for re-encod.) #   0, 0 SequenceDelimitationItem
+(07a3,10c6) SQ (Sequence with explicit length #=1)      # 178, 1 Unknown Tag & Data
+  (fffe,e000) na (Item with explicit length #=10)         # 170, 1 Item
+    (07a3,0010) LO [ELSCINT1]                               #   8, 1 PrivateCreator
+    (07a3,10c1) LO [gridname_dc]                            #  12, 1 Unknown Tag & Data
+    (07a3,10c2) CS [SLOW_NET]                               #   8, 1 Unknown Tag & Data
+    (07a3,10c3) CS [REGULAR_CON]                            #  12, 1 Unknown Tag & Data
+    (07a3,10c4) LO [172.24.57.210]                          #  14, 1 Unknown Tag & Data
+    (07a3,10c5) LO [2104]                                   #   4, 1 Unknown Tag & Data
+    (07a3,10c7) LO [gridname_so]                            #  12, 1 Unknown Tag & Data
+    (07a3,10c8) AE [dcclusFIR]                              #  10, 1 Unknown Tag & Data
+    (07a3,10c9) CS [Y]                                      #   2, 1 Unknown Tag & Data
+    (07a3,10cc) LO [1.0.0.0]                                #   8, 1 Unknown Tag & Data
+  (fffe,e00d) na (ItemDelimitationItem for re-encoding)   #   0, 0 ItemDelimitationItem
+(fffe,e0dd) na (SequenceDelimitationItem for re-encod.) #   0, 0 SequenceDelimitationItem
+(07a3,10ca) SQ (Sequence with explicit length #=1)      # 160, 1 Unknown Tag & Data
+  (fffe,e000) na (Item with explicit length #=9)          # 152, 1 Item
+    (07a3,0010) LO [ELSCINT1]                               #   8, 1 PrivateCreator
+    (07a3,10c1) LO [gridname_so]                            #  12, 1 Unknown Tag & Data
+    (07a3,10c2) CS [FAST_NET]                               #   8, 1 Unknown Tag & Data
+    (07a3,10c3) CS [REGULAR_CON]                            #  12, 1 Unknown Tag & Data
+    (07a3,10c4) LO [172.24.57.210]                          #  14, 1 Unknown Tag & Data
+    (07a3,10c5) LO [2104]                                   #   4, 1 Unknown Tag & Data
+    (07a3,10c8) AE [sontpacsFIR]                            #  12, 1 Unknown Tag & Data
+    (07a3,10c9) CS [N]                                      #   2, 1 Unknown Tag & Data
+    (07a3,10cc) LO [1.0.0.0]                                #   8, 1 Unknown Tag & Data
+  (fffe,e00d) na (ItemDelimitationItem for re-encoding)   #   0, 0 ItemDelimitationItem
+(fffe,e0dd) na (SequenceDelimitationItem for re-encod.) #   0, 0 SequenceDelimitationItem
+(07a3,10cb) SQ (Sequence with explicit length #=1)      # 178, 1 Unknown Tag & Data
+  (fffe,e000) na (Item with explicit length #=10)         # 170, 1 Item
+    (07a3,0010) LO [ELSCINT1]                               #   8, 1 PrivateCreator
+    (07a3,10c1) LO [gridname_dc]                            #  12, 1 Unknown Tag & Data
+    (07a3,10c2) CS [SLOW_NET]                               #   8, 1 Unknown Tag & Data
+    (07a3,10c3) CS [REGULAR_CON]                            #  12, 1 Unknown Tag & Data
+    (07a3,10c4) LO [172.24.57.210]                          #  14, 1 Unknown Tag & Data
+    (07a3,10c5) LO [2104]                                   #   4, 1 Unknown Tag & Data
+    (07a3,10c7) LO [gridname_so]                            #  12, 1 Unknown Tag & Data
+    (07a3,10c8) AE [dcclusFIR]                              #  10, 1 Unknown Tag & Data
+    (07a3,10c9) CS [Y]                                      #   2, 1 Unknown Tag & Data
+    (07a3,10cc) LO [1.0.0.0]                                #   8, 1 Unknown Tag & Data
+  (fffe,e00d) na (ItemDelimitationItem for re-encoding)   #   0, 0 ItemDelimitationItem
+(fffe,e0dd) na (SequenceDelimitationItem for re-encod.) #   0, 0 SequenceDelimitationItem
+(07a5,0010) LO [ELSCINT1]                               #   8, 1 PrivateCreator
+(07a5,1056) CS [Y]                                      #   2, 1 Unknown Tag & Data
+(07a5,1062) LO [SOROKA UNIVERSITY MEDICAL CENT]         #  30, 1 Unknown Tag & Data
+(07a5,1063) CS [ORIGINAL\PRIMARY\M_SE\M\SE\AXIAL]       #  32, 6 Unknown Tag & Data
+(07a5,10c8) CS [Y]                                      #   2, 1 Unknown Tag & Data
+(2050,0020) CS [IDENTITY]                               #   8, 1 PresentationLUTShape
+(6000,0010) US 128                                      #   2, 1 OverlayRows
+(6000,0011) US 128                                      #   2, 1 OverlayColumns
+(6000,0022) LO [ALG_ELEMENT_SET]                        #  16, 1 OverlayDescription
+(6000,0040) CS [G]                                      #   2, 1 OverlayType
+(6000,0050) SS 0\0                                      #   4, 2 OverlayOrigin
+(6000,0100) US 1                                        #   2, 1 OverlayBitsAllocated
+(6000,0102) US 0                                        #   2, 1 OverlayBitPosition
+(6000,3000) OW 0000\0000\0000\0000\0000\0000\0000\0000\0000\0000\0000\0000\0000... # 2048, 1 OverlayData
+(7fe0,0010) OW 0000\0000\0000\0000\0000\0000\0000\0000\0000\0000\0000\0000\0000... # 32768, 1 PixelData

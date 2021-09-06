@@ -7,10 +7,10 @@ Created on Thu June 13 2019
 '''
 Diffusion-weighted imaging preprocessing for ADI study
 =========================================================================
-denoising with dwidenoise from MRTrix3.0; 
+denoising with dwidenoise + mrdegibbs from MRTrix3.0; 
 prepare fieldmap based on magnitude and phase image
 eddy-openmp from FSL with replace outliers option but no slice-to-volume
-correction
+correction -> first processing version!!
 -------------------------------------------------------------------------
 '''
 from nipype import Node, Workflow
@@ -112,7 +112,7 @@ def create_distortion_correct():
 
     # eddy motion correction
     eddy = Node(fsl.epi.Eddy(), name="eddy")
-    eddy.inputs.num_threads = 32 ## total number of CPUs to use
+    eddy.inputs.num_threads = 4#32 ## total number of CPUs to use
     eddy.inputs.repol = True
     eddy.inputs.cnr_maps=True
     eddy.inputs.residuals=True

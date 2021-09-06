@@ -1,0 +1,1507 @@
+s1
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s10
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s100
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s101
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s102
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s104
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s105
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s106
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s107
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s108
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s109
+T0
+eddy already done
+dti done
+bbregister done
+T18
+no followup data for this subject
+s11
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s110
+T0
+eddy already done
+dti done
+bbregister done
+T18
+no followup data for this subject
+s111
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s112
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s113
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s114
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s115
+T0
+eddy already done
+dti done
+bbregister done
+T18
+no followup data for this subject
+s116
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s117
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s118
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s119
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s12
+T0
+eddy already done
+dti done
+bbregister done
+T18
+no followup data for this subject
+s121
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s122
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s124
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s125
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s126
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s127
+T0
+eddy already done
+dti done
+bbregister done
+T18
+no followup data for this subject
+s128
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s13
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s130
+T0
+eddy already done
+dti done
+bbregister done
+T18
+no followup data for this subject
+s131
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s132
+T0
+eddy already done
+dti done
+bbregister done
+T18
+no followup data for this subject
+s133
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s134
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s135
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s136
+T0
+eddy already done
+dti done
+bbregister done
+T18
+no followup data for this subject
+s139
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s14
+T0
+eddy already done
+dti done
+bbregister done
+T18
+no followup data for this subject
+s142
+T0
+eddy already done
+dti done
+bbregister done
+T18
+ERROR: cannot find /data/pt_02205/Data/wd/T18/direct_preproc/dwi_preproc/_subject_s142/dti/dtifit_slice2vol_FA.nii.gz
+s143
+T0
+eddy already done
+dti done
+bbregister done
+T18
+no followup data for this subject
+s144
+T0
+eddy already done
+dti done
+bbregister done
+T18
+no followup data for this subject
+s145
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s146
+T0
+eddy already done
+dti done
+bbregister done
+T18
+no followup data for this subject
+s148
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s149
+T0
+eddy already done
+dti done
+bbregister done
+T18
+no followup data for this subject
+s15
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s150
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s151
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s152
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s153
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s154
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s155
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s156
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s157
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s158
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s159
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s16
+T0
+eddy already done
+dti done
+bbregister done
+T18
+no followup data for this subject
+s162
+T0
+eddy already done
+dti done
+bbregister done
+T18
+no followup data for this subject
+s163
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s164
+T0
+eddy already done
+dti done
+bbregister done
+T18
+no followup data for this subject
+s165
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s166
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s167
+T0
+eddy already done
+dti done
+bbregister done
+T18
+no followup data for this subject
+s168
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s169
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s170
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s173
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s176
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s177
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s178
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s180
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s181
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s182
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s183
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s184
+T0
+eddy already done
+dti done
+bbregister done
+T18
+no followup data for this subject
+s185
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s187
+T0
+eddy already done
+dti done
+bbregister done
+T18
+no followup data for this subject
+s188
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s189
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s19
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s190
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s192
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s193
+T0
+eddy already done
+dti done
+bbregister done
+T18
+no followup data for this subject
+s194
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s196
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s197
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s198
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s199
+T0
+eddy already done
+dti done
+bbregister done
+T18
+no followup data for this subject
+s2
+T0
+eddy already done
+dti done
+bbregister done
+T18
+no followup data for this subject
+s20
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s200
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s201
+T0
+eddy already done
+dti done
+bbregister done
+T18
+no followup data for this subject
+s204
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s205
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s206
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s21
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s210
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s211
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s212
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s213
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s214
+T0
+eddy already done
+dti done
+bbregister done
+T18
+no followup data for this subject
+s215
+T0
+eddy already done
+dti done
+bbregister done
+T18
+no followup data for this subject
+s216
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s217
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s218
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s219
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s22
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s220
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s221
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s222
+T0
+eddy already done
+dti done
+bbregister done
+T18
+no followup data for this subject
+s224
+T0
+eddy already done
+dti done
+bbregister done
+T18
+no followup data for this subject
+s225
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s226
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s227
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s228
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s229
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s23
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s230
+T0
+eddy already done
+dti done
+ERROR: cannot find s230_bl in /data/pt_02205/Data/freesurfer
+T18
+eddy already done
+dti done
+bbregister done
+s231
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s232
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s234
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s235
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s236
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s237
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s238
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s239
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s24
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s240
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s241
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s242
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s243
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s244
+T0
+eddy already done
+dti done
+bbregister done
+T18
+ERROR: cannot find /data/pt_02205/Data/wd/T18/direct_preproc/dwi_preproc/_subject_s244/dti/dtifit_slice2vol_FA.nii.gz
+s246
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s247
+T0
+eddy already done
+dti done
+bbregister done
+T18
+no followup data for this subject
+s248
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s249
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s250
+T0
+eddy already done
+dti done
+bbregister done
+T18
+no followup data for this subject
+s251
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s252
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s253
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s254
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s255
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s256
+T0
+eddy already done
+dti done
+bbregister done
+T18
+ERROR: cannot find /data/pt_02205/Data/wd/T18/direct_preproc/dwi_preproc/_subject_s256/dti/dtifit_slice2vol_FA.nii.gz
+s257
+T0
+eddy already done
+dti done
+bbregister done
+T18
+ERROR: cannot find /data/pt_02205/Data/wd/T18/direct_preproc/dwi_preproc/_subject_s257/dti/dtifit_slice2vol_FA.nii.gz
+s258
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s259
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s260
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s261
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s262
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s263
+T0
+eddy already done
+dti done
+bbregister done
+T18
+no followup data for this subject
+s264
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s265
+T0
+eddy already done
+dti done
+bbregister done
+T18
+no followup data for this subject
+s266
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s267
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s268
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s269
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s27
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s271
+T0
+eddy already done
+dti done
+bbregister done
+T18
+no followup data for this subject
+s272
+T0
+eddy already done
+dti done
+bbregister done
+T18
+no followup data for this subject
+s273
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s274
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s275
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s277
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s278
+T0
+ERROR: cannot find //data/pt_02205/Data/wd/direct_preproc/dwi_preproc/_subject_s278/dti/dtifit_slice2vol_FA.nii.gz
+T18
+eddy already done
+dti done
+bbregister done
+s28
+T0
+eddy already done
+dti done
+bbregister done
+T18
+no followup data for this subject
+s280
+T0
+eddy already done
+dti done
+bbregister done
+T18
+no followup data for this subject
+s281
+T0
+eddy already done
+dti done
+bbregister done
+T18
+no followup data for this subject
+s282
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s283
+T0
+eddy already done
+dti done
+bbregister done
+T18
+no followup data for this subject
+s284
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s285
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s289
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s29
+T0
+eddy already done
+dti done
+bbregister done
+T18
+no followup data for this subject
+s290
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done
+s293
+T0
+eddy already done
+dti done
+bbregister done
+T18
+eddy already done
+dti done
+bbregister done

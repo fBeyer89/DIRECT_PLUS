@@ -11,7 +11,7 @@ Main workflow for preprocessing of diffusion-weighted data
 Uses file structure set up by conversion
 '''
 from nipype import Node, Workflow
-from distor_correct_gibbsringing import create_distortion_correct
+from distor_correct_gibbsringing import create_distortion_correct #changed according to which version (with/without slice2vol) is done
 from nipype.interfaces import fsl
 from nipype.interfaces.utility import IdentityInterface
 import nipype.interfaces.freesurfer as fs

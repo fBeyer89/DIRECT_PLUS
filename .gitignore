@@ -4,3 +4,5 @@ nipy1.4/functional/denoising/__init__.py*
 nipy1.4/functional/denoising/nilearn_cache/
 test.conf
 .Rhistory
+qa/diffusion/VISUAL/slicesdir_DWI_anat_coreg/*.png
+

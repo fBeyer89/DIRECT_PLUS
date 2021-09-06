@@ -1,0 +1,29 @@
+# Here, I wanted to check whether reorienting the input of the AROMA to MNI (/data/pt_02161/wd/hcp_prep/resting/_subject_ADI013_fu2/reorient2std_rs/rest2anat_maths_smooth_reoriented.nii) would alter the way ANTS applied its transforms when compared to the original input (
+
+#original image
+antsApplyTransforms --default-value 0 --dimensionality 3 --float 0 --input /data/pt_02161/preprocessed//resting/transform_ts/ADI013_fu2/rest2anat.nii.gz --input-image-type 3 --interpolation Linear --output rest2anat_trans.nii.gz --reference-image /data/p_life_results/2017_beyer_rs_BMI/BMI_RSN_analysis/scripts/network_identification/MNI/MNI_brain_resampled.nii.gz --transform /data/pt_02161/preprocessed//structural/ADI013_fu2/transform0GenericAffine.mat --transform /data/pt_02161/preprocessed//structural/ADI013_fu2/transform1Warp.nii.gz
+
+#reoriented 2 fslreorient2standard + smoothed image.
+antsApplyTransforms --default-value 0 --dimensionality 3 --float 0 --input /data/pt_02161/wd/hcp_prep/resting/_subject_ADI013_fu2/reorient2std_rs/rest2anat_maths_smooth_reoriented.nii --input-image-type 3 --interpolation Linear --output /data/pt_02161/wd/hcp_prep/resting/_subject_ADI013_fu2/ica_aroma/out/rest2anat_maths_smooth_reoriented_2MNI.nii.gz --reference-image /data/p_life_results/2017_beyer_rs_BMI/BMI_RSN_analysis/scripts/network_identification/MNI/MNI_brain_resampled.nii.gz --transform /data/pt_02161/preprocessed//structural/ADI013_fu2/transform0GenericAffine.mat --transform /data/pt_02161/preprocessed//structural/ADI013_fu2/transform1Warp.nii.gz
+
+
+-> these look very similar (just smoothed), so that it's ok to apply ANTS to the ICA AROMA output (which is now also reoriented)
+
+antsApplyTransforms --default-value 0 --dimensionality 3 --float 0 --input /data/pt_02161/wd/hcp_prep/resting/_subject_ADI013_fu2/ica_aroma/out/denoised_func_data_aggr.nii.gz --input-image-type 3 --interpolation Linear --output /data/pt_02161/wd/hcp_prep/resting/_subject_ADI013_fu2/ica_aroma/out/denoised_func_data_aggr_2MNI.nii.gz --reference-image /data/p_life_results/2017_beyer_rs_BMI/BMI_RSN_analysis/scripts/network_identification/MNI/MNI_brain_resampled.nii.gz --transform /data/pt_02161/preprocessed//structural/ADI013_fu2/transform0GenericAffine.mat --transform /data/pt_02161/preprocessed//structural/ADI013_fu2/transform1Warp.nii.gz
+
+
+#but why is the frontal part of the brain cut after applying fsl_glm (for subject 13_fu2
+
+fsl_glm -i /data/pt_02161/wd/hcp_prep/resting/_subject_ADI013_fu2/ica_aroma/out/denoised_func_data_aggr.nii.gz -d /data/pt_02161/wd/hcp_prep/resting/denoise/_subject_ADI013_fu2/create_design/all_regressors.txt -o denoised_func_data_aggr_glm.nii.gz --demean -m /data/pt_02161/wd/hcp_prep/resting/transform_timeseries/_subject_ADI013_fu2/final_mask/rest_mean2anat_lowres_brain_mask_maths_maths.nii.gz --out_f=F_noise.nii.gz --out_pf=pF_noise.nii.gz --out_res=rest2anat_denoised.nii.gz
+
+input:
+still has frontal part:  /data/pt_02161/wd/hcp_prep/resting/_subject_ADI013_fu2/ica_aroma/out/denoised_func_data_aggr.nii.gz
+mask: also includes frontal part: /data/pt_02161/wd/hcp_prep/resting/transform_timeseries/_subject_ADI013_fu2/final_mask/rest_mean2anat_lowres_brain_mask_maths_maths.nii.gz
+
+#similar for ADI046_bl
+
+#try without demean
+fsl_glm -i /data/pt_02161/wd/hcp_prep/resting/_subject_ADI046_bl/ica_aroma/out/denoised_func_data_aggr.nii.gz -d /data/pt_02161/wd/hcp_prep/resting/denoise/_subject_ADI046_bl/create_design/all_regressors.txt -o denoised_func_data_aggr_glm.nii.gz -m /data/pt_02161/wd/hcp_prep/resting/transform_timeseries/_subject_ADI046_bl/final_mask/rest_mean2anat_lowres_brain_mask_maths_maths.nii.gz --out_f=F_noise.nii.gz --out_pf=pF_noise.nii.gz --out_res=rest2anat_denoised.nii.gz
+
+#try without mask -> then everything is calculated.
+fsl_glm -i /data/pt_02161/wd/hcp_prep/resting/_subject_ADI046_bl/ica_aroma/out/denoised_func_data_aggr.nii.gz -d /data/pt_02161/wd/hcp_prep/resting/denoise/_subject_ADI046_bl/create_design/all_regressors.txt -o denoised_func_data_aggr_glm.nii.gz --out_f=F_noise.nii.gz --out_pf=pF_noise.nii.gz --out_res=rest2anat_denoised_wom.nii.gz
